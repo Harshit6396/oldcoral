@@ -1,0 +1,162 @@
+<template>
+  <fixedheader/>
+  <section class="w-full">
+    <!-- Header Section with Gradient Background -->
+    <div class="bg-gradient-to-r from-slate-500 to-slate-600 py-30 px-4">
+      <div class="max-w-6xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl  text-white mb-4">
+          TRANSCRIPTION SERVICES
+        </h1>
+        <div class="w-16 h-1 bg-blue-500 mx-auto"></div>
+      </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="bg-white py-16 px-4">
+      <div class="max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-1">
+          <!-- Left Column - Services List -->
+          <div class="space-y-4">
+
+            <div class="space-y-3">
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+              Data Capture Services
+              </div>
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+                Translation Services
+              </div>
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+              Transcription Services
+              </div>
+              <div class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors">
+
+
+              Audio Transcription
+              </div>
+              <div class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors">
+
+              Business Transcription
+              </div>
+              <div class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors">
+
+              Legal Transcriptions
+              </div>
+              <div class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors">
+
+              Medical Transcription
+              </div>
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+              Interpreting Services
+              </div>
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+              Audio Visual Services
+              </div>
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+              Languages we Translate
+              </div>
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+              Multiple Language Translation
+              </div>
+              <div class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+
+              FAQs/Frequently Asked Questions
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column - Content -->
+          <div class="space-y-6">
+            <div>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                Coral Knowledge Services offers text and audio transcription services in various fields such as Legal, Medical,
+                Insurance, Entertainment, Corporate, Government, and Education sectors. We provide precise and timely transcription
+                services to our clients all over the world.
+              </p>
+
+              <p class="text-gray-700 leading-relaxed mb-4">
+                Our transcribers offer the best-known services to you in any required area. At your convenience, we work on any
+                timeline set by you. All our services are available round the clock.
+              </p>
+
+              <p class="text-gray-700 leading-relaxed mb-6">
+                Apart from providing a transcript of your files, we can also translate them into over 200+ languages. That is to say, we
+                provide both transcription and translation services to our clients. We work with both companies as well as
+                individuals. We make sure that our transcription and translation services are better than those of our
+                competitors by implementing rigorous quality checks before delivery. When transcribing a transcribed file, our linguists are
+                careful to ensure that the meaning of the content in the transcribed file is accurately rendered in the first translation.
+                Every term in your document or audio clip is completely transcribed as per your requirement. Our transcriptions are
+                renowned for their precision and accuracy.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="text-s  text-gray-800 mb-3">The Transcription Services rendered by us include:</h3>
+
+              <div class="space-y-4">
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-2">Medical Transcription:</h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    Medical transcription is a strict necessity for any hospital or pharmaceutical company. We help our clients to transcribe
+                    all their medical documents properly so that they do not face any hassle. We have medical transcriptionists from all the
+                    fields of Medicine such as Cardiology, Nephrology, Neurology, Anesthesiology, General Medicine, Microbiology,
+                    Radiology, and others. All our transcriptionists are fluent speakers of their language. Read More
+                  </p>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-2">Legal Transcription:</h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    At Coral Knowledge Services, we provide legal transcription services to various attorneys, solicitors, and barristers. Our
+                    services help improve focus not only on core capability but also enhance productivity. We carry out all types of
+                    auditing including the auditing of our legal records – resulting in an accuracy that will surprise your potential. We are
+                    known for the use of state-of-the-art legal transcription software along with educated transcriptionists. Read More
+                  </p>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-2">Business Transcription:</h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    At Coral Knowledge Services, we offer you a wide variety of transcription services in over a hundred languages. We
+                    comprise a large number of workers for the transcription of various documents, employee surveys, insurance
+                    companies, etc. We are a reliable name in transcription services for various languages like Japanese, Chinese, Polish,
+                    Hebrew, French, Italian, and other languages. Read More
+                  </p>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-2">Audio transcriptions:</h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    At Coral Knowledge Services, we have the capability to transcribe your audio files into text format and vice versa. There
+                    are many instances when you have to get an important audio file transcribed rapidly. In such situations, instead of
+                    getting worried, outsource your requirement to us. The transcriptionists at Coral Knowledge Services are trained to
+                    decipher different accents and transcribe accurately. We can transcribe your audio files into a text format, in the
+                    language of your choice. Read More
+                  </p>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-2">Confidentiality:</h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    At Coral Knowledge Services, we sign a non-disclosure agreement with all our clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <Footer/>
+</template>
+
+<script setup>
+// Component for Transcription Services section
+</script>

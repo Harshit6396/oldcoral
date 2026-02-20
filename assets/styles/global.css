@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+    font-family: muli, sans-serif;
+    style:normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+/*h1, h2 {*/
+/*    font-weight: bold;*/
+/*}*/
+:root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+}
+
+.bg-background {
+    background-color: hsl(var(--background));
+}
+
+.text-foreground {
+    color: hsl(var(--foreground));
+}
+p {
+    font-size: 14px;
+    color: #818181;
+}
