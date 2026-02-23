@@ -110,3 +110,6 @@ output
 bun.lockb
 
 .output
+/dist/
+/node_modules/
+/.nuxt/
