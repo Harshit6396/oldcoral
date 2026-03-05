@@ -142,7 +142,7 @@
 </script>
 
 <style scoped>
-.relative {
+.relative  {
   position: relative;
   display: inline-block;
 }
