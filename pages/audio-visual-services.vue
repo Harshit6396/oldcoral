@@ -26,17 +26,17 @@
         <div class="lg:col-span-1">
           <nav class="rounded-lg p-6">
             <ul class="space-y-3">
-              <li><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Data Capture Services</a></li>
-              <li><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Translation Services</a></li>
-              <li><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Transcription Services</a></li>
-              <li><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Interpreting Services</a></li>
+              <li><router-link to="/data-capture-services" class="text-blue-600 hover:text-blue-800 text-sm">Data Capture Services</router-link></li>
+              <li><router-link to="/translation-services" class="text-blue-600 hover:text-blue-800 text-sm">Translation Services</router-link></li>
+              <li><router-link to="/transcription-services" class="text-blue-600 hover:text-blue-800 text-sm">Transcription Services</router-link></li>
+              <li><router-link to="/interpreting-services" class="text-blue-600 hover:text-blue-800 text-sm">Interpreting Services</router-link></li>
               <li class="font-semibold text-gray-800 text-sm">Audio Visual Services</li>
-              <li class="ml-4"><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Multilingual Desktop Publishing</a></li>
-              <li class="ml-4"><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Subtitling</a></li>
-              <li class="ml-4"><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Voiceover</a></li>
-              <li><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Languages we Translate</a></li>
-              <li><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Multiple Language Translation</a></li>
-              <li><a href="#" class="text-blue-600 hover:text-blue-800 text-sm">FAQs: Frequently Asked Questions</a></li>
+              <li class="ml-4"><router-link to="/multilingual-desktop-publishing" class="text-blue-600 hover:text-blue-800 text-sm">Multilingual Desktop Publishing</router-link></li>
+              <li class="ml-4"><router-link to="/subtitling" class="text-blue-600 hover:text-blue-800 text-sm">Subtitling</router-link></li>
+              <li class="ml-4"><router-link to="/voiceover" class="text-blue-600 hover:text-blue-800 text-sm">Voiceover</router-link></li>
+              <li><router-link to="/languages-we-translate" class="text-blue-600 hover:text-blue-800 text-sm">Languages we Translate</router-link></li>
+              <li><router-link to="/multiple-language-translation" class="text-blue-600 hover:text-blue-800 text-sm">Multiple Language Translation</router-link></li>
+              <li><router-link to="/faqs-frequently-asked-questions" class="text-blue-600 hover:text-blue-800 text-sm">FAQs: Frequently Asked Questions</router-link></li>
             </ul>
           </nav>
         </div>
@@ -130,6 +130,7 @@
 </template>
 
 <script setup>
+// Component for Audio Visual Services section
 </script>
 
 <style scoped>

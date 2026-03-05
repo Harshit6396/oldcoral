@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/harshit/Documents/GitHub/old-coral/node_modules/nuxt/dist/app/entry.async.js": {
+  "/home/harshit/Documents/GitHub/coral/coralknowledgeservices.in/node_modules/nuxt/dist/app/entry.async.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/home/harshit/Documents/GitHub/old-coral/node_modules/nuxt/dist/app/entry.async.js"
+    "file": "/home/harshit/Documents/GitHub/coral/coralknowledgeservices.in/node_modules/nuxt/dist/app/entry.async.js"
   }
 }

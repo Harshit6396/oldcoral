@@ -5,15 +5,14 @@
     <div class="bg-gradient-to-r from-slate-500 to-slate-600 py-30 px-4">
       <div class="max-w-6xl mx-auto text-center">
         <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-      <span class="relative inline-block">
-        TRANSLATION SERVICES
-        <!-- Underline under the text -->
-        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500"></div>
-      </span>
+          <span class="relative inline-block">
+            TRANSLATION SERVICES
+            <!-- Underline under the text -->
+            <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500"></div>
+          </span>
         </h1>
       </div>
     </div>
-
 
     <!-- Content Section -->
     <div class="bg-white py-16 px-4">
@@ -22,19 +21,19 @@
           <!-- Left Column - Services List -->
           <div class="space-y-4">
             <div class="text-center mb-8">
-              <h2 class="text-lg font-semibold text-[#3170ac] mb-6">Data Capture Services</h2> <!-- Updated color here -->
+              <h2 class="text-lg font-semibold text-[#3170ac] mb-6">Data Capture Services</h2>
               <div class="space-y-3">
-                <div v-for="service in services" :key="service" class="text-[#3170ac] hover:text-blue-800 cursor-pointer transition-colors"> <!-- Updated color here -->
-                  {{ service }}
+                <div v-for="service in services" :key="service.name" class="text-[#3170ac] hover:text-blue-800 cursor-pointer transition-colors">
+                  <router-link :to="service.link">{{ service.name }}</router-link>
                 </div>
               </div>
             </div>
 
             <div class="text-center">
-              <h2 class="text-lg font-semibold text-[#3170ac] mb-6">Transcription Services</h2> <!-- Updated color here -->
+              <h2 class="text-lg font-semibold text-[#3170ac] mb-6">Transcription Services</h2>
               <div class="space-y-3">
-                <div v-for="transcription in transcriptionServices" :key="transcription" class="text-[#3170ac] hover:text-blue-800 cursor-pointer transition-colors"> <!-- Updated color here -->
-                  {{ transcription }}
+                <div v-for="transcription in transcriptionServices" :key="transcription.name" class="text-[#3170ac] hover:text-blue-800 cursor-pointer transition-colors">
+                  <router-link :to="transcription.link">{{ transcription.name }}</router-link>
                 </div>
               </div>
             </div>
@@ -46,7 +45,7 @@
               At Coral Knowledge Services, we translate and help translate from and to any language. As has been vouched for by our vast client base, we can boast that our services are 100% accurate. Not only do we translate, but we also edit and proofread documents as well. Our linguists are available worldwide providing our customers with the professional assistance in making their business available in every part of the world. We are conversant in every existing language and translate documents at low costs.
             </p>
             <p>
-              Apart from translating the language, we also rephrase and/ or reframe the document at an additional cost in order to meet the client's needs. We provide fast and effective translations of documents at reasonable prices. Moreover, we also help translate technical documents into a native language so as to help our customers. We have teamed up with translators all over the world and we have served various industries like Pharmaceutical, IT, Gaming industry, Automobile industry etc. Over the years, we have built a team with people who are enriched with wide experience and knowledge and we believe loyalty serves our needs.
+              Apart from translating the language, we also rephrase and/or reframe the document at an additional cost in order to meet the client's needs. We provide fast and effective translations of documents at reasonable prices. Moreover, we also help translate technical documents into a native language so as to help our customers. We have teamed up with translators all over the world and we have served various industries like Pharmaceutical, IT, Gaming industry, Automobile industry etc. Over the years, we have built a team with people who are enriched with wide experience and knowledge and we believe loyalty serves our needs.
             </p>
             <p>
               <strong>Quality:</strong> At Coral Knowledge Services, we have well-defined quality protocols, by which we abide in order to maintain our quality standards. We tend to hire the expertise that understands words, not merely know them. Moreover, every document is re-read and edited thoroughly to meet international standards. We use up-to-date software for fast and effective translation. We pledge to maintain extreme confidentiality while translating sensitive documents.
@@ -70,33 +69,24 @@
 </template>
 
 <script setup>
-// Service data
+// Service data with links to respective pages
 const services = [
-  'Translation Services',
-  'Business Translation',
-  'Financial Translation',
-  'Technical Translation',
-  'Document Translation',
-  'Certified Visa Translation',
-  'Legal Translation',
-  'Medical Translation',
-  'Website Localization Service',
-  'Certified Translation',
-  'Marketing Translation',
-  'Market Research Translation',
-  'Healthcare & Medical Translation',
-  'Engineering & Technical Translation',
-  'Automotive Industries Translation',
-  'What is Gaming Website Translation?',
-  'E - learning and Training Material'
+  { name: 'Translation Services', link: '/translation-services' },
+  { name: 'Financial Translation', link: '/financial-translation-services' },
+  { name: 'Legal Translation', link: '/legal-translation-services' },
+  { name: 'Healthcare & Medical Translation', link: '/healthcaremedical-translation' },
+  { name: 'Engineering & Technical Translation', link: '/engineering-technical-translation' },
+  { name: 'Automotive Industries Translation', link: '/industry-automotive' },
+  { name: 'What is Gaming Website Translation?', link: '/industry-gaming' },
+  { name: 'E-learning and Training Material', link: '/industry-elearning' }
 ]
 
 const transcriptionServices = [
-  'Interpreting Services',
-  'Audio Visual Services',
-  'Languages we Translate',
-  'Multiple Language Translation',
-  'FAQs Frequently Asked Questions'
+  { name: 'Interpreting Services', link: '/interpreting-services' },
+  { name: 'Audio Visual Services', link: '/audio-visual-services' },
+  { name: 'Languages we Translate', link: '/languages-we-translate' },
+  { name: 'Multiple Language Translation', link: '/multiple-language-translation' },
+  { name: 'FAQs Frequently Asked Questions', link: '/faqs-frequently-asked-questions' }
 ]
 </script>
 

@@ -130,33 +130,10 @@
 
         <!-- Newsletter Section -->
         <div class="w-full md:w-1/4">
-          <h3 class="text-white mb-4 tracking-wider">
-            SIGN UP FOR OUR
-            <br />
-            NEWSLETTER!
-          </h3>
           <div class="space-y-4">
-            <div>
-              <label for="email" class="block text-sm mb-2">
-                Email Address:
-              </label>
-              <input
-                  id="email"
-                  v-model="email"
-                  type="email"
-                  class="w-full bg-white border border-gray-300 text-gray-800 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="Enter your email"
-              />
-            </div>
-            <button
-                @click="signUp"
-                class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-colors font-medium"
-            >
-              SIGN UP
-            </button>
+            <iframe src="https://tally.so/r/PdA9Je" width="100%" height="300" frameborder="0" style="border: none;"></iframe>
           </div>
-        </div>
-      </div>
+        </div>     </div>
     </div>
   </div>
 
@@ -168,11 +145,11 @@
         <p>All Rights Reserved</p>
       </div>
       <div class="flex flex-wrap gap-4 text-sm">
-        <a href="#" class="text-gray-400 hover:text-white">
+        <a href="/privacy-policy" class="text-gray-400 hover:text-white">
           Privacy Policy
         </a>
         <span class="text-gray-600">|</span>
-        <a href="#" class="text-gray-400 hover:text-white">
+        <a href="/terms-and-conditions" class="text-gray-400 hover:text-white">
           Terms & Conditions
         </a>
         <span class="text-gray-600">|</span>
@@ -208,4 +185,21 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.w-full.md\:w-1\/4 {
+  padding: 0; /* Remove any padding */
+  margin: 0;  /* Remove any margin */
+}
+
+.space-y-4 {
+  margin: 0; /* Remove any space between elements */
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ensure full width */
+  height: 300px; /* Set the desired height */
+  border: none; /* Remove iframe border */
+}
+
 </style>

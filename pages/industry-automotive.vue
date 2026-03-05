@@ -14,7 +14,6 @@
       </div>
     </div>
 
-
     <!-- Main Content -->
     <div class="container mx-auto px-4 py-8">
       <div class="flex flex-col lg:flex-row gap-8">
@@ -27,24 +26,24 @@
               <div class="space-y-1">
                 <div class="text-blue-600 font-medium mb-2">Translation Services</div>
                 <ul class="ml-4 space-y-1 text-sm">
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Business Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Financial Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Technical Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Document Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Certified Visa Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Legal Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Medical Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Website Localisation Service</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Certified Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Marketing Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Market Research Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Healthcare & Medical Translation</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">Engineering & Technical Translation</a></li>
+                  <li><router-link to="/business-translation" class="text-blue-500 hover:text-blue-700">Business Translation</router-link></li>
+                  <li><router-link to="/financial-translation" class="text-blue-500 hover:text-blue-700">Financial Translation</router-link></li>
+                  <li><router-link to="/technical-translation" class="text-blue-500 hover:text-blue-700">Technical Translation</router-link></li>
+                  <li><router-link to="/document-translation" class="text-blue-500 hover:text-blue-700">Document Translation</router-link></li>
+                  <li><router-link to="/certified-visa-translation" class="text-blue-500 hover:text-blue-700">Certified Visa Translation</router-link></li>
+                  <li><router-link to="/legal-translation" class="text-blue-500 hover:text-blue-700">Legal Translation</router-link></li>
+                  <li><router-link to="/medical-translation" class="text-blue-500 hover:text-blue-700">Medical Translation</router-link></li>
+                  <li><router-link to="/website-localization-service" class="text-blue-500 hover:text-blue-700">Website Localisation Service</router-link></li>
+                  <li><router-link to="/certified-translation" class="text-blue-500 hover:text-blue-700">Certified Translation</router-link></li>
+                  <li><router-link to="/marketing-translation" class="text-blue-500 hover:text-blue-700">Marketing Translation</router-link></li>
+                  <li><router-link to="/market-research-translation" class="text-blue-500 hover:text-blue-700">Market Research Translation</router-link></li>
+                  <li><router-link to="/healthcare-medical-translation" class="text-blue-500 hover:text-blue-700">Healthcare & Medical Translation</router-link></li>
+                  <li><router-link to="/engineering-technical-translation" class="text-blue-500 hover:text-blue-700">Engineering & Technical Translation</router-link></li>
                   <li class="bg-blue-50 px-2 py-1 rounded">
-                    <a href="#" class="text-blue-700 font-medium">Automotive Industries Translation</a>
+                    <router-link to="/automotive-industries-translation" class="text-blue-700 font-medium">Automotive Industries Translation</router-link>
                   </li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">What is Gaming Website Translation?</a></li>
-                  <li><a href="#" class="text-blue-500 hover:text-blue-700">E- learning and Training Material</a></li>
+                  <li><router-link to="/gaming-website-translation" class="text-blue-500 hover:text-blue-700">What is Gaming Website Translation?</router-link></li>
+                  <li><router-link to="/e-learning-training-material" class="text-blue-500 hover:text-blue-700">E- learning and Training Material</router-link></li>
                 </ul>
               </div>
 
@@ -141,21 +140,10 @@
 
 <script setup>
 </script>
+
 <style scoped>
 .relative {
   position: relative;
-  display: inline-block; /* Ensures the element's width is constrained by the text */
+  display: inline-block;
 }
-
-.underline-half::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 50%; /* This makes it cover half of the line */
-  height: 2px;
-  background-color: #2b6cb0; /* Blue underline color */
-  transform: translateX(-50%); /* This centers the underline */
-}
-
 </style>

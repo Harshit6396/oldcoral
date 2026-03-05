@@ -5,15 +5,14 @@
     <div class="bg-gradient-to-r from-slate-500 to-slate-600 py-30 px-4">
       <div class="max-w-6xl mx-auto text-center">
         <h1 class="text-4xl md:text-5xl text-white mb-4">
-      <span class="relative inline-block">
-        TRANSCRIPTION SERVICES
-        <!-- Underline under the text -->
-        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500"></div>
-      </span>
+          <span class="relative inline-block">
+            TRANSCRIPTION SERVICES
+            <!-- Underline under the text -->
+            <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500"></div>
+          </span>
         </h1>
       </div>
     </div>
-
 
     <!-- Content Section -->
     <section class="bg-white py-16 px-4">
@@ -24,18 +23,42 @@
           <div class="space-y-6">
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Our Services</h2>
             <ul class="space-y-4">
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">Data Capture Services</li>
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">Translation Services</li>
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">Transcription Services</li>
-              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">Audio Transcription</li>
-              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">Business Transcription</li>
-              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">Legal Transcriptions</li>
-              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">Medical Transcription</li>
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">Interpreting Services</li>
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">Audio Visual Services</li>
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">Languages we Translate</li>
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">Multiple Language Translation</li>
-              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">FAQs/Frequently Asked Questions</li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/data-capture-services">Data Capture Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/translation-services">Translation Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/transcription-services">Transcription Services</router-link>
+              </li>
+              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">
+                <router-link to="/transcription-services">Audio Transcription</router-link>
+              </li>
+              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">
+                <router-link to="/transcription-services">Business Transcription</router-link>
+              </li>
+              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">
+                <router-link to="/transcription-services">Legal Transcriptions</router-link>
+              </li>
+              <li class="text-[#3170ac] pl-6 hover:text-[#3170ac] cursor-pointer transition-colors font-medium">
+                <router-link to="/transcription-services">Medical Transcription</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/interpreting-services">Interpreting Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/audio-visual-services">Audio Visual Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/languages-we-translate">Languages we Translate</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/multiple-language-translation">Multiple Language Translation</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors font-medium">
+                <router-link to="/faqs-frequently-asked-questions">FAQs/Frequently Asked Questions</router-link>
+              </li>
             </ul>
           </div>
 
@@ -111,10 +134,6 @@
         </div>
       </div>
     </section>
-
-
-
-
   </section>
   <Footer/>
 </template>

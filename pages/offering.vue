@@ -78,7 +78,7 @@
             <p class="text-base leading-7 text-gray-600 mb-2 text-justify">
               Calls in any language across different time zones pose no problem. We have been handling these types of calls for over five years from large and small customers, from government agencies and private companies, medical facilities and insurance carriers, 911 operators, and emergency room staff.
             </p>
-            <NuxtLink to="/interpretation-services" class="text-blue-600 font-semibold text-sm hover:underline">
+            <NuxtLink to="/coralknowledgeservices.in/pages/interpreting-services" class="text-blue-600 font-semibold text-sm hover:underline">
               Read more
             </NuxtLink>
           </div>

@@ -19,16 +19,7 @@
           <!-- Search and Social -->
           <div class="flex items-center space-x-4">
             <!-- Search Bar -->
-            <div class="relative">
-              <input
-                  v-model="searchQuery"
-                  type="text"
-                  placeholder="Search"
-                  class="pl-8 pr-4 py-1 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  @keyup.enter="handleSearch"
-              />
-              <Icon name="ph:magnifying-glass" class="absolute left-2 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
-            </div>
+
 
             <!-- Social Media Icons -->
             <div class="flex items-center space-x-2">
@@ -198,7 +189,7 @@ const navigationItems = [
       { name: 'Technical Publications', href: '/technical-publications' },
       { name: 'Translation Services', href: '/translation-services' },
       { name: 'Transcription Services', href: '/transcription-services' },
-      { name: 'Interpreting Services', href: '/interpretation-services' },
+      { name: 'Interpreting Services', href: '/interpreting-services' },
       { name: 'Audio Visual Services', href: '/audio-visual-services' },
       { name: 'Data Capture Services', href: '/data-capture-services' }
     ]

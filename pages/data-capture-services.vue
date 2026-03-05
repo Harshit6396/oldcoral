@@ -30,16 +30,36 @@
           <div class="space-y-6 px-8">
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Our Services</h2>
             <ul class="space-y-4">
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">Data Capture Services</li>
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">Translation Services</li>
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">Transcription Services</li>
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">Interpreting Services</li>
-              <li class="text-blue-600 hover:text-blue-800 transition-colors cursor-pointer ml-4 font-medium">Legal Interpretation</li>
-              <li class="text-blue-600 hover:text-blue-800 transition-colors cursor-pointer ml-4 font-medium">Medical Interpretation</li>
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">Audio Visual Services</li>
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">Languages we Translate</li>
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">Multiple Language Translation</li>
-              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">FAQs (Frequently Asked Questions)</li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/data-capture-services">Data Capture Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/translation-services">Translation Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/transcription-services">Transcription Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/interpreting-services">Interpreting Services</router-link>
+              </li>
+              <li class="text-blue-600 hover:text-blue-800 transition-colors cursor-pointer ml-4 font-medium">
+                <router-link to="/legal-interpretation">Legal Interpretation</router-link>
+              </li>
+              <li class="text-blue-600 hover:text-blue-800 transition-colors cursor-pointer ml-4 font-medium">
+                <router-link to="/medical-interpretation">Medical Interpretation</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/audio-visual-services">Audio Visual Services</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/languages-we-translate">Languages we Translate</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/multiple-language-translation">Multiple Language Translation</router-link>
+              </li>
+              <li class="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer font-medium">
+                <router-link to="/faqs-frequently-asked-questions">FAQs (Frequently Asked Questions)</router-link>
+              </li>
             </ul>
           </div>
 
